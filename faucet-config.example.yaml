@@ -24,7 +24,7 @@ faucetImage: "/images/fauceth_420.jpg"
 # some additional html to show on the startpage
 faucetHomeHtml: |
   <div class='pow-info'>
-    <h5>What is a PoW Faucet?</h5>
+    <h5>Exzo Network Testnet Faucet</h5>
     This is an Ethereum Faucet running on the Goerli Testnet.<br>
     To prevent malicious actors from exhausting all available funds or 
     accumulating enough Ether to mount long running spam attacks, 
@@ -44,20 +44,20 @@ faucetHomeHtml: |
 
 # random secret string that is used by the faucet to "sign" session data, so sessions can be restored automatically by clients when faucet is restarted / crashed
 # use a random string and do not share / reuse it anywhere. Everyone knowing this secret is theoretically able to claim rewards from the faucet without mining.
-faucetSecret: "RandomStringThatShouldBeVerySecret!"
+faucetSecret: "ExzoNetworkFaucetBot5412"
 
 # ETH execution layer RPC host
 #ethRpcHost: "http://127.0.0.1:8545/"
-ethRpcHost: "https://ethereum-goerli.publicnode.com"
+ethRpcHost: "https://evm-testnet.exzo.network/"
 
 # faucet wallet private key (hex, without 0x prefix)
-ethWalletKey: "feedbeef12340000feedbeef12340000feedbeef12340000feedbeef12340000"
+ethWalletKey: "aabf6dcae23fc3231e3cacef47cb691f5b1cc222f0c9a73026a5436c8c824874"
 
 # EVM chain id (null for auto-detect from RPC)
-ethChainId: null
+ethChainId: 2370
 
 # symbol (short name) of the coin that can be mined
-faucetCoinSymbol: "GöETH"
+faucetCoinSymbol: "XZO"
 
 # type of coin that can be mined
 # native = native coin (ETH)
@@ -367,8 +367,6 @@ buildSeoMeta:
 resultSharing:
   preHtml: |
     <div class="sh-opt">
-      Did you like the faucet? Give that project a 
-      <iframe src="https://ghbtns.com/github-btn.html?user=pk910&repo=PoWFaucet&type=star&count=true" frameborder="0" scrolling="0" width="150" height="20" title="GitHub"></iframe>
     </div>
   #postHtml: |
   #  <div class="sh-opt">
