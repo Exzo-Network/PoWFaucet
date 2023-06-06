@@ -51,7 +51,7 @@ faucetSecret: "ExzoNetworkFaucetBot5412"
 ethRpcHost: "https://evm-testnet.exzo.network/"
 
 # faucet wallet private key (hex, without 0x prefix)
-ethWalletKey: "aabf6dcae23fc3231e3cacef47cb691f5b1cc222f0c9a73026a5436c8c824874"
+ethWalletKey: ""
 
 # EVM chain id (null for auto-detect from RPC)
 ethChainId: 2370
